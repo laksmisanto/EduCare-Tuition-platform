@@ -164,7 +164,7 @@ const Home = () => {
               <Button className="my-4">Hire a Tutor (It&#39;s Free!)</Button>
               <p>
                 Want to become a Tutor?{" "}
-                <a href="/registration" className="text-primary underline">
+                <a href="/signup" className="text-primary underline">
                   Sign up
                 </a>{" "}
                 now

@@ -15,7 +15,7 @@ const MenuBar = () => {
     },
     {
       name: "Jobs Board",
-      link: "/about",
+      link: "/jobsboard",
     },
     {
       name: "Contact Us",
@@ -48,7 +48,9 @@ const MenuBar = () => {
                   </li>
                 ))}
                 <li>
-                  <Button>Become A Tutor</Button>
+                  <Button>
+                    <a href="/signup">Become A Tutor</a>
+                  </Button>
                 </li>
               </ul>
             </div>
